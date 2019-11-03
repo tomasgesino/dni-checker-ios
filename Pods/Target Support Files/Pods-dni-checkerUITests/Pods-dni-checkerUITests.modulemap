@@ -1,0 +1,6 @@
+framework module Pods_dni_checkerUITests {
+  umbrella header "Pods-dni-checkerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

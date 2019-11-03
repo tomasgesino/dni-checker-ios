@@ -1,0 +1,736 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		946DBF4CBE6D6EC52B715508 /* Pods_dni_checkerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E4C1C387C3398088B4414DA /* Pods_dni_checkerUITests.framework */; };
+		958CD0CA51E4388C629B63EC /* Pods_dni_checker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58F83FDFE63072462A739E5C /* Pods_dni_checker.framework */; };
+		B8DA7A9EA435D05097B3C08E /* Pods_dni_checkerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D071F75A7A7C458A372A2A17 /* Pods_dni_checkerTests.framework */; };
+		CF74D021234BF33000C6982A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF74D020234BF33000C6982A /* GoogleService-Info.plist */; };
+		CF77D7852345780600ABE86E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF77D7842345780600ABE86E /* AppDelegate.swift */; };
+		CF77D7872345780600ABE86E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF77D7862345780600ABE86E /* SceneDelegate.swift */; };
+		CF77D7892345780600ABE86E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF77D7882345780600ABE86E /* ViewController.swift */; };
+		CF77D78C2345780600ABE86E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF77D78A2345780600ABE86E /* Main.storyboard */; };
+		CF77D78E2345780600ABE86E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF77D78D2345780600ABE86E /* Assets.xcassets */; };
+		CF77D7912345780600ABE86E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF77D78F2345780600ABE86E /* LaunchScreen.storyboard */; };
+		CF77D79C2345780700ABE86E /* dni_checkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF77D79B2345780700ABE86E /* dni_checkerTests.swift */; };
+		CF77D7A72345780700ABE86E /* dni_checkerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF77D7A62345780700ABE86E /* dni_checkerUITests.swift */; };
+		CFF88E23234B84C200C422AF /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF88E22234B84C200C422AF /* WebViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF77D7982345780700ABE86E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF77D7792345780600ABE86E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF77D7802345780600ABE86E;
+			remoteInfo = "dni-checker";
+		};
+		CF77D7A32345780700ABE86E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF77D7792345780600ABE86E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF77D7802345780600ABE86E;
+			remoteInfo = "dni-checker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07E53C11C96C1179375EFD1A /* Pods-dni-checkerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dni-checkerUITests.release.xcconfig"; path = "Target Support Files/Pods-dni-checkerUITests/Pods-dni-checkerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4A23C57D82B60E35C10504C1 /* Pods-dni-checker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dni-checker.release.xcconfig"; path = "Target Support Files/Pods-dni-checker/Pods-dni-checker.release.xcconfig"; sourceTree = "<group>"; };
+		58F83FDFE63072462A739E5C /* Pods_dni_checker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dni_checker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EE7E781C4513C10AE89C5DA /* Pods-dni-checkerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dni-checkerTests.release.xcconfig"; path = "Target Support Files/Pods-dni-checkerTests/Pods-dni-checkerTests.release.xcconfig"; sourceTree = "<group>"; };
+		8E4C1C387C3398088B4414DA /* Pods_dni_checkerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dni_checkerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A37DF85EFFD54B8D17531B6A /* Pods-dni-checkerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dni-checkerUITests.debug.xcconfig"; path = "Target Support Files/Pods-dni-checkerUITests/Pods-dni-checkerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AD4B9C522E96EA52AAAFCA9A /* Pods-dni-checkerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dni-checkerTests.debug.xcconfig"; path = "Target Support Files/Pods-dni-checkerTests/Pods-dni-checkerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CB42FBAC3990862DF29B0363 /* Pods-dni-checker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dni-checker.debug.xcconfig"; path = "Target Support Files/Pods-dni-checker/Pods-dni-checker.debug.xcconfig"; sourceTree = "<group>"; };
+		CF74D020234BF33000C6982A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CF77D7812345780600ABE86E /* dni-checker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dni-checker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF77D7842345780600ABE86E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF77D7862345780600ABE86E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CF77D7882345780600ABE86E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF77D78B2345780600ABE86E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF77D78D2345780600ABE86E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF77D7902345780600ABE86E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF77D7922345780600ABE86E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF77D7972345780700ABE86E /* dni-checkerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dni-checkerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF77D79B2345780700ABE86E /* dni_checkerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dni_checkerTests.swift; sourceTree = "<group>"; };
+		CF77D79D2345780700ABE86E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF77D7A22345780700ABE86E /* dni-checkerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dni-checkerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF77D7A62345780700ABE86E /* dni_checkerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dni_checkerUITests.swift; sourceTree = "<group>"; };
+		CF77D7A82345780700ABE86E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFF88E22234B84C200C422AF /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		D071F75A7A7C458A372A2A17 /* Pods_dni_checkerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dni_checkerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF77D77E2345780600ABE86E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				958CD0CA51E4388C629B63EC /* Pods_dni_checker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF77D7942345780700ABE86E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8DA7A9EA435D05097B3C08E /* Pods_dni_checkerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF77D79F2345780700ABE86E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				946DBF4CBE6D6EC52B715508 /* Pods_dni_checkerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		850541DA3BEA2DF52323ECEF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB42FBAC3990862DF29B0363 /* Pods-dni-checker.debug.xcconfig */,
+				4A23C57D82B60E35C10504C1 /* Pods-dni-checker.release.xcconfig */,
+				AD4B9C522E96EA52AAAFCA9A /* Pods-dni-checkerTests.debug.xcconfig */,
+				5EE7E781C4513C10AE89C5DA /* Pods-dni-checkerTests.release.xcconfig */,
+				A37DF85EFFD54B8D17531B6A /* Pods-dni-checkerUITests.debug.xcconfig */,
+				07E53C11C96C1179375EFD1A /* Pods-dni-checkerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CF77D7782345780600ABE86E = {
+			isa = PBXGroup;
+			children = (
+				CF77D7832345780600ABE86E /* dni-checker */,
+				CF77D79A2345780700ABE86E /* dni-checkerTests */,
+				CF77D7A52345780700ABE86E /* dni-checkerUITests */,
+				CF77D7822345780600ABE86E /* Products */,
+				850541DA3BEA2DF52323ECEF /* Pods */,
+				F2E3EE9B9DA38DE87D092DD5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CF77D7822345780600ABE86E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF77D7812345780600ABE86E /* dni-checker.app */,
+				CF77D7972345780700ABE86E /* dni-checkerTests.xctest */,
+				CF77D7A22345780700ABE86E /* dni-checkerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF77D7832345780600ABE86E /* dni-checker */ = {
+			isa = PBXGroup;
+			children = (
+				CF77D7842345780600ABE86E /* AppDelegate.swift */,
+				CF77D7862345780600ABE86E /* SceneDelegate.swift */,
+				CF77D7882345780600ABE86E /* ViewController.swift */,
+				CFF88E22234B84C200C422AF /* WebViewController.swift */,
+				CF77D78A2345780600ABE86E /* Main.storyboard */,
+				CF77D78D2345780600ABE86E /* Assets.xcassets */,
+				CF77D78F2345780600ABE86E /* LaunchScreen.storyboard */,
+				CF74D020234BF33000C6982A /* GoogleService-Info.plist */,
+				CF77D7922345780600ABE86E /* Info.plist */,
+			);
+			path = "dni-checker";
+			sourceTree = "<group>";
+		};
+		CF77D79A2345780700ABE86E /* dni-checkerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF77D79B2345780700ABE86E /* dni_checkerTests.swift */,
+				CF77D79D2345780700ABE86E /* Info.plist */,
+			);
+			path = "dni-checkerTests";
+			sourceTree = "<group>";
+		};
+		CF77D7A52345780700ABE86E /* dni-checkerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF77D7A62345780700ABE86E /* dni_checkerUITests.swift */,
+				CF77D7A82345780700ABE86E /* Info.plist */,
+			);
+			path = "dni-checkerUITests";
+			sourceTree = "<group>";
+		};
+		F2E3EE9B9DA38DE87D092DD5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58F83FDFE63072462A739E5C /* Pods_dni_checker.framework */,
+				D071F75A7A7C458A372A2A17 /* Pods_dni_checkerTests.framework */,
+				8E4C1C387C3398088B4414DA /* Pods_dni_checkerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF77D7802345780600ABE86E /* dni-checker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF77D7AB2345780700ABE86E /* Build configuration list for PBXNativeTarget "dni-checker" */;
+			buildPhases = (
+				E67A2B419BEB4837C90F61AC /* [CP] Check Pods Manifest.lock */,
+				CF77D77D2345780600ABE86E /* Sources */,
+				CF77D77E2345780600ABE86E /* Frameworks */,
+				CF77D77F2345780600ABE86E /* Resources */,
+				F334ACD87A540F103B3C586F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dni-checker";
+			productName = "dni-checker";
+			productReference = CF77D7812345780600ABE86E /* dni-checker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF77D7962345780700ABE86E /* dni-checkerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF77D7AE2345780700ABE86E /* Build configuration list for PBXNativeTarget "dni-checkerTests" */;
+			buildPhases = (
+				FB6DDC73889A8C8D8BF473B2 /* [CP] Check Pods Manifest.lock */,
+				CF77D7932345780700ABE86E /* Sources */,
+				CF77D7942345780700ABE86E /* Frameworks */,
+				CF77D7952345780700ABE86E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF77D7992345780700ABE86E /* PBXTargetDependency */,
+			);
+			name = "dni-checkerTests";
+			productName = "dni-checkerTests";
+			productReference = CF77D7972345780700ABE86E /* dni-checkerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF77D7A12345780700ABE86E /* dni-checkerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF77D7B12345780700ABE86E /* Build configuration list for PBXNativeTarget "dni-checkerUITests" */;
+			buildPhases = (
+				4C5F273C5679DAFA18906BA8 /* [CP] Check Pods Manifest.lock */,
+				CF77D79E2345780700ABE86E /* Sources */,
+				CF77D79F2345780700ABE86E /* Frameworks */,
+				CF77D7A02345780700ABE86E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF77D7A42345780700ABE86E /* PBXTargetDependency */,
+			);
+			name = "dni-checkerUITests";
+			productName = "dni-checkerUITests";
+			productReference = CF77D7A22345780700ABE86E /* dni-checkerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF77D7792345780600ABE86E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Tomas Gesino";
+				TargetAttributes = {
+					CF77D7802345780600ABE86E = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					CF77D7962345780700ABE86E = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = CF77D7802345780600ABE86E;
+					};
+					CF77D7A12345780700ABE86E = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = CF77D7802345780600ABE86E;
+					};
+				};
+			};
+			buildConfigurationList = CF77D77C2345780600ABE86E /* Build configuration list for PBXProject "dni-checker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF77D7782345780600ABE86E;
+			productRefGroup = CF77D7822345780600ABE86E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF77D7802345780600ABE86E /* dni-checker */,
+				CF77D7962345780700ABE86E /* dni-checkerTests */,
+				CF77D7A12345780700ABE86E /* dni-checkerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF77D77F2345780600ABE86E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF77D7912345780600ABE86E /* LaunchScreen.storyboard in Resources */,
+				CF74D021234BF33000C6982A /* GoogleService-Info.plist in Resources */,
+				CF77D78E2345780600ABE86E /* Assets.xcassets in Resources */,
+				CF77D78C2345780600ABE86E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF77D7952345780700ABE86E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF77D7A02345780700ABE86E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C5F273C5679DAFA18906BA8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dni-checkerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E67A2B419BEB4837C90F61AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dni-checker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F334ACD87A540F103B3C586F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dni-checker/Pods-dni-checker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dni-checker/Pods-dni-checker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dni-checker/Pods-dni-checker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB6DDC73889A8C8D8BF473B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dni-checkerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF77D77D2345780600ABE86E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF77D7892345780600ABE86E /* ViewController.swift in Sources */,
+				CF77D7852345780600ABE86E /* AppDelegate.swift in Sources */,
+				CF77D7872345780600ABE86E /* SceneDelegate.swift in Sources */,
+				CFF88E23234B84C200C422AF /* WebViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF77D7932345780700ABE86E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF77D79C2345780700ABE86E /* dni_checkerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF77D79E2345780700ABE86E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF77D7A72345780700ABE86E /* dni_checkerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF77D7992345780700ABE86E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF77D7802345780600ABE86E /* dni-checker */;
+			targetProxy = CF77D7982345780700ABE86E /* PBXContainerItemProxy */;
+		};
+		CF77D7A42345780700ABE86E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF77D7802345780600ABE86E /* dni-checker */;
+			targetProxy = CF77D7A32345780700ABE86E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF77D78A2345780600ABE86E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF77D78B2345780600ABE86E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF77D78F2345780600ABE86E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF77D7902345780600ABE86E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF77D7A92345780700ABE86E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF77D7AA2345780700ABE86E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF77D7AC2345780700ABE86E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB42FBAC3990862DF29B0363 /* Pods-dni-checker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48QB5W6SYY;
+				INFOPLIST_FILE = "dni-checker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tomas-gesino.dni-checker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF77D7AD2345780700ABE86E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A23C57D82B60E35C10504C1 /* Pods-dni-checker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48QB5W6SYY;
+				INFOPLIST_FILE = "dni-checker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tomas-gesino.dni-checker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF77D7AF2345780700ABE86E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD4B9C522E96EA52AAAFCA9A /* Pods-dni-checkerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "dni-checkerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tomas-gesino.dni-checkerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dni-checker.app/dni-checker";
+			};
+			name = Debug;
+		};
+		CF77D7B02345780700ABE86E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EE7E781C4513C10AE89C5DA /* Pods-dni-checkerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "dni-checkerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tomas-gesino.dni-checkerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dni-checker.app/dni-checker";
+			};
+			name = Release;
+		};
+		CF77D7B22345780700ABE86E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A37DF85EFFD54B8D17531B6A /* Pods-dni-checkerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "dni-checkerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tomas-gesino.dni-checkerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "dni-checker";
+			};
+			name = Debug;
+		};
+		CF77D7B32345780700ABE86E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07E53C11C96C1179375EFD1A /* Pods-dni-checkerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "dni-checkerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tomas-gesino.dni-checkerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "dni-checker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF77D77C2345780600ABE86E /* Build configuration list for PBXProject "dni-checker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF77D7A92345780700ABE86E /* Debug */,
+				CF77D7AA2345780700ABE86E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF77D7AB2345780700ABE86E /* Build configuration list for PBXNativeTarget "dni-checker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF77D7AC2345780700ABE86E /* Debug */,
+				CF77D7AD2345780700ABE86E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF77D7AE2345780700ABE86E /* Build configuration list for PBXNativeTarget "dni-checkerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF77D7AF2345780700ABE86E /* Debug */,
+				CF77D7B02345780700ABE86E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF77D7B12345780700ABE86E /* Build configuration list for PBXNativeTarget "dni-checkerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF77D7B22345780700ABE86E /* Debug */,
+				CF77D7B32345780700ABE86E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF77D7792345780600ABE86E /* Project object */;
+}

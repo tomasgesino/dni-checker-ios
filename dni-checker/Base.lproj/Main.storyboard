@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="dni_checker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wzq-e7-Tzl">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" systemColor="opaqueSeparatorColor" red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Wzq-e7-Tzl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2Wp-D4-JUU"/>
+                            <constraint firstItem="Wzq-e7-Tzl" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="HI2-2L-w2A"/>
+                            <constraint firstItem="Wzq-e7-Tzl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Niz-MP-UUa"/>
+                            <constraint firstItem="Wzq-e7-Tzl" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="tU4-zc-fcI"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="videoPreview" destination="Wzq-e7-Tzl" id="ioY-IN-oAx"/>
+                        <segue destination="rae-Uv-fvL" kind="show" identifier="openLink" id="dbZ-uv-QUa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="126.38680659670166"/>
+        </scene>
+        <!--Web View Controller-->
+        <scene sceneID="fX1-cf-XE2">
+            <objects>
+                <viewController id="rae-Uv-fvL" customClass="WebViewController" customModule="dni_checker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FdO-fy-8iq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="44444444" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hjM-84-rGT">
+                                <rect key="frame" x="16" y="261" width="343" height="124"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="47"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="hjM-84-rGT" firstAttribute="trailing" secondItem="FdO-fy-8iq" secondAttribute="trailingMargin" id="83G-bq-vrB"/>
+                            <constraint firstItem="hjM-84-rGT" firstAttribute="top" secondItem="4tc-ER-wkb" secondAttribute="top" constant="261" id="IAq-ht-Wzv"/>
+                            <constraint firstItem="hjM-84-rGT" firstAttribute="centerY" secondItem="FdO-fy-8iq" secondAttribute="centerY" id="T8z-Rj-qDg"/>
+                            <constraint firstItem="hjM-84-rGT" firstAttribute="leading" secondItem="FdO-fy-8iq" secondAttribute="leadingMargin" id="mNx-9a-Alx"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="4tc-ER-wkb"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ws7-rP-XDz"/>
+                    <connections>
+                        <outlet property="labelDnu" destination="hjM-84-rGT" id="DQM-Ko-K51"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Z0-SL-FPn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="904.79999999999995" y="126.38680659670166"/>
+        </scene>
+    </scenes>
+</document>
